@@ -26,3 +26,19 @@ ngrok http PORT_NUMBER
 You must run the Ngrok server directly using the above command. Do not attempt to run Ngrok from the package.json file with "npm run tunnel" as it will not use the authenticated version.
 
 Note - If you are reading this note after attempting to use Ngrok as shown in the course, you will need to follow all of the steps above. Then, afterward, you will need to restart any running tunnels and applications and generate a new tunnel address.
+
+
+
+============================================================
+1. create db.js file in the root directory
+2. go to package.json file and add the following code
+ "scripts": {
+    "db" : "json-server -w db.json",
+    "tunnel": "ngrok http 3000"
+  },
+
+3. run the following command in the terminal
+npm run db
+
+4. run the following command in the terminal
+npm run tunnel

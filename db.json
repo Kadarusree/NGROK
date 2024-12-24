@@ -1,14 +1,14 @@
 {
-    "blogPosts": [
-        {
-            "id": 1,
-            "title": "Hello World",
-            "content": "This is my first blog post!"
-        },
-        {
-            "id": 2,
-            "title": "Goodbye World",
-            "content": "This is my last blog post!"
-        }
-    ]
+  "blogPosts": [
+    {
+      "title": "Hello World",
+      "description": "This is my first blog post! Edit",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "title": "Goodbye World",
+      "description": "This is my last blog post!"
+    }
+  ]
 }
