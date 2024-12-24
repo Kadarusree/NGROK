@@ -1,0 +1,14 @@
+{
+    "blogPosts": [
+        {
+            "id": 1,
+            "title": "Hello World",
+            "content": "This is my first blog post!"
+        },
+        {
+            "id": 2,
+            "title": "Goodbye World",
+            "content": "This is my last blog post!"
+        }
+    ]
+}
